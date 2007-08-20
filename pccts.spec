@@ -1,6 +1,6 @@
 %define name pccts
 %define version 1.33mr33
-%define release 4mdk
+%define release %mkrel 4
 
 Name: %{name}
 Summary: Purdue Compiler Construction Tool
