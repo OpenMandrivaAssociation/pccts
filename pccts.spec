@@ -10,7 +10,6 @@ Source: %{name}-%{version}.tar.bz2
 Patch0: %{name}-stdarg_usage.patch.bz2
 Group: Development/Other
 URL: http://www.polhode.com/pccts.html
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License: Public domain
 
 
