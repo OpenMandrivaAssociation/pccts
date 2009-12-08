@@ -1,6 +1,6 @@
 %define name pccts
 %define version 1.33mr33
-%define release %mkrel 8
+%define release %mkrel 9
 
 Name: %{name}
 Summary: Purdue Compiler Construction Tool
@@ -8,6 +8,7 @@ Version: %{version}
 Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 Patch0: %{name}-stdarg_usage.patch.bz2
+Patch1: pccts-1.33mr33-mdv-fix-str-fmt.patch
 Group: Development/Other
 URL: http://www.polhode.com/pccts.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -32,6 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 %setup -q
 
 %patch0 -p1
+%patch1 -p1 -b .strfmt
 
 %build
 
