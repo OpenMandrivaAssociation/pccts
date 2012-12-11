@@ -68,3 +68,67 @@ rm -rf $RPM_BUILD_ROOT
 %defattr (-,root,root)
 %dir %{_includedir}/pccts
 %{_includedir}/pccts/*
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 1.33mr33-10mdv2011.0
++ Revision: 614488
+- the mass rebuild of 2010.1 packages
+
+* Tue Dec 08 2009 Jérôme Brenier <incubusss@mandriva.org> 1.33mr33-9mdv2010.1
++ Revision: 474827
+- fix str fmt
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.33mr33-7mdv2009.0
++ Revision: 241138
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Aug 23 2007 Thierry Vignaud <tv@mandriva.org> 1.33mr33-5mdv2008.0
++ Revision: 69931
+- use %%mkrel
+
+  + Adam Williamson <awilliamson@mandriva.org>
+    - Import pccts
+
+
+
+* Wed Jul 06 2005 Lenny Cartier <lenny@mandriva.com> 1.33mr33-4mdk
+- rebuild
+
+* Mon May 24 2004 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr33-3mdk
+- add Patch0 stdarg_usage 
+
+* Tue Jan 28 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr33-2mdk
+- rebuild
+
+* Mon Jun 24 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr33-1mdk
+- updated to maintenace release 33
+
+* Thu Jan 24 2002 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr31-1mdk
+- updated to maintenance release 31
+
+* Wed Aug 22 2001 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr25-1mdk
+- updated to maintenance release 25
+
+* Mon Apr 09 2001  Lenny Cartier <lenny@mandrakesoft.com> 1.33mr22-1mdk
+- updated to maintenance release 22
+
+* Wed Jan 24 2001 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr19-4mdk
+- rebuild
+
+* Mon Sep 11 2000 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr19-3mdk
+- build release
+
+* Wed May 03 2000 Lenny Cartier <lenny@mandrakesoft.com> 1.33mr19-2mdk
+- fix group
+- fix files section
+
+* Mon Oct 11 1999 Lenny Cartier <lenny@mandrakesoft.com>
+- Little adaptation of the specfile 
