@@ -1,3 +1,2 @@
 sources:
-  "pccts-1.33mr33.tar.bz2": f90399245d663ee3f0e2918d7452e53bef62af68
-  "pccts-stdarg_usage.patch.bz2": 7befe3a6deca8564ec4d6957bcfb1d7a717955dd
+  pccts-1.33mr33.tar.bz2: f90399245d663ee3f0e2918d7452e53bef62af68

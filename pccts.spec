@@ -5,7 +5,7 @@
 Name: %{name}
 Summary: Purdue Compiler Construction Tool
 Version: %{version}
-Release: %{release}
+Release:	1
 Source: %{name}-%{version}.tar.bz2
 Patch0: %{name}-stdarg_usage.patch.bz2
 Patch1: pccts-1.33mr33-mdv-fix-str-fmt.patch
